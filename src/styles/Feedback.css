@@ -1,0 +1,66 @@
+.feedback-wrapper {
+    padding: 60px 20px;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    
+  }
+  
+  .feedback-wrapper h3 {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .feedback-wrapper h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #222c58;
+    margin-top: -20px;
+  }
+  
+  .feedback-scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 10px;
+    scroll-snap-type: x mandatory;
+    border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+
+  }
+  
+  .feedback-card {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    background: #fff;
+    text-align: center;
+    align-items: center ;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    transition: transform 0.5s, background 0.5s;
+    color: #333;
+  }
+  
+  .feedback-card.highlighted {
+    background: linear-gradient(135deg, #0F0033,#40128B,#5F259F, #b522c9 );
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  .feedback-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .feedback-card h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  

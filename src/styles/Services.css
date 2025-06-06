@@ -1,0 +1,114 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.services-container h1{
+  text-align: center;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px; 
+  padding: 25px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transition: background 0.4s ease;
+  
+}
+
+.service-card.reverse {
+  flex-direction: row-reverse;
+  
+}
+
+.service-card:hover {
+  background: linear-gradient(135deg, #0F0033, #40128B, #5F259F, #b522c9);
+  color: white;
+}
+
+.service-image {
+  flex: 0 0 240px;
+}
+
+.service-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.service-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.service-content h3 {
+  margin-bottom: 12px;
+  font-size: 2rem;
+  color: #007BFF;
+}
+
+.service-content ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.buy-btn {
+  margin-top: 15px;
+  padding: 8px 16px; 
+  background-color: #d63384;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.buy-btn:hover {
+  background-color: #b5226c;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .service-card,
+  .service-card.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-image {
+    width: 100%;
+  }
+
+  .service-image img {
+    height: auto;
+    max-height: 250px;
+  }
+
+  .service-content {
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .service-content ul {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .buy-btn {
+    align-self: center;
+  }
+}

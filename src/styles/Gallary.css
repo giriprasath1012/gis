@@ -1,0 +1,39 @@
+.gallary {
+    text-align: left;
+    padding: 15px 30px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+  }
+
+  .gallary h2{
+    margin-top: 100px;
+    color: #0F0033;
+    text-align: center;
+  }
+
+.gallary iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 800px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 90px;
+  transition: transform 0.3s ease;
+}
+
+
+/* Responsive for mobile screens */
+@media (max-width: 768px) {
+  .gallary iframe {
+    height: 400px;
+  }
+
+  .gallary {
+    padding: 20px;
+  }
+
+  .gallary h2 {
+    font-size: 1.5rem;
+  }
+}
