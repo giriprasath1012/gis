@@ -6,11 +6,11 @@ const offersData = [
   {
     title: "MOTOR INSURANCE",
     items: [
-      { name: "TWO WHEELER", icon: "🚗" },
+      { name: "TWO WHEELER", icon: "🏍️" },
       { name: "PRIVATE CAR", icon: "🚙" },
       { name: "PASSENGER CARRIER", icon: "🚌" },
       { name: "GOODS CARRIER", icon: "🚚" },
-      { name: "MISCELLANEOUS VEHICLE", icon: "🚛" },
+      { name: "MISCELLANEOUS VEHICLE", icon: "🚜" },
     ]
   },
   {

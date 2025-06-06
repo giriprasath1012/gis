@@ -46,6 +46,17 @@ const services = [
     ],
     image: require('../assets/serviceimage4.png'),
   },
+  {
+    title: 'TERM INSURANCE',
+    description: [
+      'Life Cover',
+      'Regular Investment',
+      'Financial protection',
+      'Higher Sum Assured with lower premium',
+      'Longer Coverage Period',
+    ],
+    image: require('../assets/serviceimage5.png'),
+  },
 ];
 
 const Services = () => {
